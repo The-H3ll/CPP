@@ -17,7 +17,8 @@ class phone_book {
 		bool	check_valid(std::string str);
 	//	int		add_command(class contact contact, int count);
 		void	search(class contact contact);
-		void	desired_index(class contact contact, int i);
+//		void	desired_index(class contact contact, int i);
+		void	valid_index(class contact contact, std::string index);
 };
 
 class contact {
@@ -25,6 +26,7 @@ class contact {
 		contact();
 		~contact();
 		int	i;
+		int contacts;
 		contact add_command(class contact contact); 
 		std::string first_name[8];
 		std::string	last_name[8];
@@ -32,5 +34,8 @@ class contact {
 		std::string phone_number[8];
 		std::string darkest_secret[8];
 };
+
+void	desired_index(class contact contact, int i);
+bool	check_number(std::string index);
 
 #endif //CPP_PHONE_BOOK_HPP

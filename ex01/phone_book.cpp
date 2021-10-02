@@ -22,12 +22,13 @@ int 	main()
 	std::string str;
 
 	contact.i = 0;
+	contact.contacts = 0;
 	while (1)
 	{
-		std::cin >> str;
+		std::getline (std::cin, str);
 		if(pb.check_valid(str) == false)
 			std::cout << "Wrong input" << std::endl;
-		if (str.compare("ADD") == 0)
+		else if (str.compare("ADD") == 0)
 		{
 			if (contact.i == 8)
 				contact.i = 0;
@@ -37,8 +38,8 @@ int 	main()
 		{
 			pb.search(contact);	
 			std::cout << "Wich index do you want ? : ";
-			std::cin >> index;
-			pb.desired_index(contact, index);
+			std::getline (std::cin, index);
+			pb.valid_index(contact, index);
 		}
 		else if (str.compare("EXIT") == 0)
 			return (0);

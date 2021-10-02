@@ -35,20 +35,23 @@ bool	phone_book::check_valid(std::string str)
 contact		contact::add_command(class contact contact)
 {
 	std::cout << "first name : ";
-	std::cin >> contact.first_name[contact.i]; 
+	std::getline (std::cin, contact.first_name[contact.i]); 
 
 	std::cout << "last name : ";
-	std::cin >> contact.last_name[contact.i];
+	std::getline (std::cin, contact.last_name[contact.i]);
 
 	std::cout << "nickname : ";
-	std::cin >> contact.nickname[contact.i];
+	std::getline(std::cin, contact.nickname[contact.i]);
 
 	std::cout << "phone_number : ";
-	std::cin >> contact.phone_number[contact.i];
+	std::getline(std::cin, contact.phone_number[contact.i]);
 
 	std::cout << "darkest_secret : ";
-	std::cin >> contact.darkest_secret[contact.i];
-	contact.i += 1;
+	std::getline(std::cin, contact.darkest_secret[contact.i]);
+	if (contact.i < 8)
+		contact.i += 1;
+	if (contact.contacts < 8)
+		contact.contacts += 1;
 	return (contact);
 }
 
@@ -58,7 +61,7 @@ void	phone_book::search(class contact contact)
 
 	j = 0;
 	std::cout << "index    | first name| last name | nickname  | " << std::endl;
-	while (j < contact.i)
+	while (j < contact.contacts)
 	{
 		std::cout << j << "        | ";
 		if (contact.first_name[j].length() > 10)
@@ -99,7 +102,7 @@ void	phone_book::search(class contact contact)
 	}
 }
 
-void	phone_book::desired_index(class contact contact, int i)
+void	desired_index(class contact contact, int i)
 {
 	std::cout << "first name : ";
 	std::cout << contact.first_name[i] << std::endl; 
@@ -117,19 +120,35 @@ void	phone_book::desired_index(class contact contact, int i)
 	std::cout << contact.darkest_secret[i] << std::endl;
 }
 
-void	phone_book::valid_index(class contact contact, string index)
+bool	check_number(std::string index)
+{
+	for (unsigned long i = 0; i < index.length(); i++)
+	{
+		if (std::isdigit(index[i]) == 0)
+			return(false);
+	}
+	return (true);
+}
+
+void	phone_book::valid_index(class contact contact, std::string index)
 {
 	int num;
 
-	num = std::stoi(index);
-	if (index.compare("0") != 0 && index.compare("1") != 0 index.compare("2") != 0 && index.compare("3") != 0
-		&& index.compare("4") != 0 && index.compare("5") != 0 && index.compare("6") != 0 && )index.compare("7") != 0 && 
+	num = -1;
+	if (check_number(index) == false)
+	{
 		std::cout << "Please Insert a valid index 0-7\n";
-	
-	if (num > contact.i)
+		return ;
+	}
+	num = std::stoi(index);
+	if (num > contact.contacts && num != -1)
 	{
 		std::cout << "index is out of range\n";
 		return ;
 	}
-	
+	else if (num != -1)
+	{
+		desired_index(contact, num);	
+		return ;
+	}
 }
