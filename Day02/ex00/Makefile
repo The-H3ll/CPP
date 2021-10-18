@@ -1,15 +1,15 @@
 
-NAME= zombie
+NAME= fixed
 
 CC= clang++
 
 FLAGS= -Wall -Wextra -Werror
 
-SRCS= main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS= main.cpp fixed.cpp 
 
 all: $(NAME)
 $(NAME):
-	$(CC) $(FLAGS) $(SRCS) -o zombie
+	$(CC) $(FLAGS) $(SRCS) -o $(NAME)
 
 clean:
 	rm -rf $(NAME)

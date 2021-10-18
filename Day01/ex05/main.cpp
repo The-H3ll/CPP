@@ -1,27 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zombie.hpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: molabhai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/04 18:30:17 by molabhai          #+#    #+#             */
-/*   Updated: 2021/10/04 18:30:19 by molabhai         ###   ########.fr       */
+/*   Created: 2021/10/13 11:30:41 by molabhai          #+#    #+#             */
+/*   Updated: 2021/10/13 11:30:42 by molabhai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
 
+#include "Karen.hpp"
 
-class Zombie
+int	main()
 {
-    private:
-        std::string _zombie_name;
-    public:
-        Zombie( std::string name );
-        ~Zombie();
-        void    announce( void );
+	Karen karen;
 
-};
+	void	(Karen::*ptrFunc)(std::string) = &Karen::complain;
 
-Zombie*     zombieHorde( int N, std::string name);
+	(karen.*ptrFunc)("ERROR");
+	return (0);
+}

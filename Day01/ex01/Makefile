@@ -5,7 +5,7 @@ CC= clang++
 
 FLAGS= -Wall -Wextra -Werror
 
-SRCS= main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS= main.cpp Zombie.cpp ZombieHorde.cpp 
 
 all: $(NAME)
 $(NAME):

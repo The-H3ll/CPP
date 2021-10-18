@@ -1,27 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zombie.hpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: molabhai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/04 18:30:17 by molabhai          #+#    #+#             */
-/*   Updated: 2021/10/04 18:30:19 by molabhai         ###   ########.fr       */
+/*   Created: 2021/10/06 16:20:15 by molabhai          #+#    #+#             */
+/*   Updated: 2021/10/06 16:21:10 by molabhai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "Zombie.hpp"
 
 
-class Zombie
+int main(void)
 {
-    private:
-        std::string _zombie_name;
-    public:
-        Zombie( std::string name );
-        ~Zombie();
-        void    announce( void );
+    Zombie  *casa;
+    int num;
 
-};
-
-Zombie*     zombieHorde( int N, std::string name);
+    num = 20;
+    casa = zombieHorde(num, "Mouaad");
+    for (int i = 0; i < num; i++)
+    {
+        casa->announce();
+    }
+    delete [] casa;
+}

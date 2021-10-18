@@ -6,29 +6,21 @@
 /*   By: molabhai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 18:30:11 by molabhai          #+#    #+#             */
-/*   Updated: 2021/10/04 18:30:13 by molabhai         ###   ########.fr       */
+/*   Updated: 2021/10/06 15:31:00 by molabhai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#include "zombie.hpp"
+#include "Zombie.hpp"
 
-zombie::zombie( std::string name ) : _zombie_name(name)
+int     main(void)
 {
-	
-}
+    Zombie zombie("labhairi");
+    Zombie *next = newZombie("Mouaad");
 
-void		zombie::announce( void )
-{
-
-}
-
-Zombie*     newZombie( std::string name )
-{
-
-}
-
-void        randomChump( std::strinf name )
-{
-
+  //  next = 
+    zombie.announce();
+    next->announce();
+    delete next;
+    return (0);
 }

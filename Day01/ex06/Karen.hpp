@@ -1,27 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zombie.hpp                                         :+:      :+:    :+:   */
+/*   Karen.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: molabhai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/04 18:30:17 by molabhai          #+#    #+#             */
-/*   Updated: 2021/10/04 18:30:19 by molabhai         ###   ########.fr       */
+/*   Created: 2021/10/13 13:59:34 by molabhai          #+#    #+#             */
+/*   Updated: 2021/10/13 13:59:35 by molabhai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
+
+#ifndef KAREN_HPP
+# define KAREN_HPP
+
 #include <iostream>
 
-
-class Zombie
+class   Karen
 {
     private:
-        std::string _zombie_name;
-    public:
-        Zombie( std::string name );
-        ~Zombie();
-        void    announce( void );
-
+        void    debug( void );
+        void	info( void );
+        void	warning( void );
+        void	error( void );
+	public:
+		void	complain( std::string level );
+		Karen();
+		~Karen();
 };
 
-Zombie*     zombieHorde( int N, std::string name);
+#endif
