@@ -18,10 +18,12 @@ class	ClapTrap
 		ClapTrap( std::string Name);
 		void operator=( const ClapTrap& clap );
 		~ClapTrap();
-		void	attack(std::string const &target);
-		void	takeDamage(unsigned int amount);
-		void	beRepaired(unsigned int amount);
-		std::string returnName(std::string Name);
+		void	attack( std::string const &target );
+		void	takeDamage( unsigned int amount );
+		void	beRepaired( unsigned int amount );
+		void	set( std::string Name );
+		std::string		get();
+		std::string returnName( std::string Name );
 };
 
 #endif

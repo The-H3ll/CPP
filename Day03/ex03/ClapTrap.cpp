@@ -59,6 +59,15 @@ void	ClapTrap::beRepaired( unsigned int amount )
 		"Energy Point "<< this->_EnergyPoint <<  std::endl;
 }
 
+void	ClapTrap::set(std::string Name)
+{
+	this->_Name = Name;
+}
+
+std::string		ClapTrap::get()
+{
+	return (this->_Name);
+}
 
 ClapTrap::~ClapTrap()
 {

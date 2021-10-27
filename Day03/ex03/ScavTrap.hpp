@@ -6,9 +6,9 @@
 
 #include "ClapTrap.hpp"
 
-class ScavTrap : ClapTrap
+class ScavTrap : public virtual ClapTrap
 {
-	private:
+	protected:
 		std::string _Name;
 		int			_HitPoint;
 		int			_EnergyPoint;
@@ -21,7 +21,7 @@ class ScavTrap : ClapTrap
 		~ScavTrap();
 
 		void	guardGate( void ); 
-		void    attack( std::string const & target );
+		void	attack( std::string const & target );
 };
 
 #endif

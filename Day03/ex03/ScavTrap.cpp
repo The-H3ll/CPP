@@ -38,7 +38,7 @@ void    ScavTrap::operator =(  const ScavTrap& clap )
 
 void    ScavTrap::attack( std::string const & target )
 {
-	std::cout << "ClapTrap " << this->_Name << " attack " << target << " causing " << this->_AttackDamage << " points of damage!"
+	std::cout << "ScavTrap " << this->_Name << " attack " << target << " causing " << this->_AttackDamage << " points of damage!"
 		"Energy Point "<< this->_EnergyPoint << " from derived Scav"<<  std::endl;
 }
 
