@@ -21,7 +21,12 @@ void    Dog::operator = ( const Dog & Dog)
     std::cout << "Equal Dog operator " << std::endl;
 }
 
-void	Dog::makeSound( void )
+//std::string 	Dog::getType() const
+//{
+//	return (this->type);
+//}
+
+void	Dog::makeSound( void ) const
 {
 	std::cout << "WOAF WOAF !!!" << std::endl;
 }

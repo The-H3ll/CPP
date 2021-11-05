@@ -21,7 +21,12 @@ void    Cat::operator = ( const Cat & Cat)
     std::cout << "Equal Cat operator " << std::endl;
 }
 
-void	Cat::makeSound( void )
+//std::string 	Cat::getType() const
+//{
+//	return (this->type);
+//}
+
+void	Cat::makeSound( void ) const
 {
 	std::cout << "MIAW MIAW !!!" << std::endl;
 }

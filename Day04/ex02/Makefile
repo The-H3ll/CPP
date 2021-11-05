@@ -4,7 +4,7 @@ CC= clang++
 
 FLAGS= -Wall -Wextra -Werror
 
-SRCS= main.cpp Cat.cpp Animal.cpp Dog.cpp
+SRCS= main.cpp Cat.cpp Animal.cpp Dog.cpp Brain.cpp
 
 all: $(NAME)
 $(NAME):
