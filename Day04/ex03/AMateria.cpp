@@ -11,11 +11,13 @@ AMateria::AMateria()
 
 AMateria::AMateria(std::string const & type)
 {
+	std::cout << "string Constructor\n";
 	this->type  = type;
 }
 
 AMateria::AMateria(const AMateria &aMateria)
 {
+	std::cout << "Copy Constructor\n";
 	this->type = aMateria.type;
 }
 
@@ -32,6 +34,7 @@ void	AMateria::use(ICharacter &target)
 
 std::string const	&AMateria::getType() const
 {
+	std::cout << "Type ==> " << this->type << std::endl;
 	return (this->type);
 }
 

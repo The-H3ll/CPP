@@ -5,8 +5,6 @@
 #ifndef C___IMATERIASOURCE_HPP
 #define C___IMATERIASOURCE_HPP
 
-#include "Ice.hpp"
-#include "Cure.hpp"
 #include "AMateria.hpp"
 
 class IMateriaSource {

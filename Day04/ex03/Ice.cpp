@@ -25,6 +25,11 @@ AMateria*	Ice::clone() const {
 	return (new Ice());
 }
 
+std::string	const  &Ice::getType() const {
+	return this->type;
+}
+
+
 Ice::~Ice() {
 	std::cout << "ICE Destructor\n";
 }

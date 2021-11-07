@@ -5,14 +5,14 @@
 #ifndef C___MATERIASOURCE_HPP
 #define C___MATERIASOURCE_HPP
 
-
-#include "MateriaSource.hpp"
 #include "IMateriaSource.hpp"
+#include "Cure.hpp"
+#include "Ice.hpp"
 
 class MateriaSource : public IMateriaSource
 {
 protected:
-	AMateria **materia;
+	AMateria *materia[4];
 public:
 	MateriaSource();
 	MateriaSource( const MateriaSource &materiaSource);

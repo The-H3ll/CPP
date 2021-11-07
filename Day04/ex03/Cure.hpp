@@ -6,8 +6,6 @@
 #define C___CURE_HPP
 
 #include "AMateria.hpp"
-#include <iostream>
-
 
 class Cure : public AMateria {
 	protected:
@@ -17,6 +15,7 @@ class Cure : public AMateria {
 		Cure( const Cure &cure );
 		void	operator=( const Cure &cure );
 		AMateria *clone ( void ) const ;
+		std::string	const &getType() const;
 		~Cure();
 };
 

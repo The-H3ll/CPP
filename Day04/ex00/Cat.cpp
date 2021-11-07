@@ -1,6 +1,7 @@
 
 
 #include "Cat.hpp"
+#include "Dog.hpp"
 
 
 Cat::Cat()
@@ -11,6 +12,7 @@ Cat::Cat()
 
 Cat::Cat( const Cat & Cat)
 {
+
     this->type = Cat.type;
     std::cout << "Cat Default constructor" << std::endl;
 }

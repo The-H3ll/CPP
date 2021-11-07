@@ -16,6 +16,7 @@ public:
 	Ice(const Ice &ice);
 	~Ice();
 	AMateria * clone() const;
+	std::string	const &getType() const;
 	void	operator=(const Ice &ice);
 };
 

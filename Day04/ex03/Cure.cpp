@@ -24,6 +24,10 @@ AMateria*	Cure::clone() const {
 	return (new Cure());
 }
 
+std::string	const  &Cure::getType() const {
+	return this->type;
+}
+
 Cure::~Cure() {
 	std::cout << "Cure Destructor\n";
 }

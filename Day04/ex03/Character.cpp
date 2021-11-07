@@ -79,9 +79,9 @@ void	Character::equip(AMateria *m)
 		if (this->inventory[i] == NULL)
 		{
 			if (m->getType() == "ice")
-				inventory[i] = new Ice();
+				inventory[i] = m;
 			else if (m->getType() == "cure")
-				inventory[i] = new Cure();
+				inventory[i] = m;
 			return;
 		}
 	}
@@ -96,7 +96,12 @@ void	Character::unequip(int idx)
 void	Character::use(int idx, ICharacter &target)
 {
 	if (this->inventory[idx] != NULL)
-		inventory[idx]->use(target);
+	{
+		if (this->inventory[idx]->getType() == "ice")
+			std::cout << "Shoot an Ice  at " << target.getName() << std::endl;
+		else if (this->inventory[idx]->getType() == "cure")
+			std::cout << "Heals " << target.getName() << "'s wound\n";
+	}
 }
 
 Character::~Character()
