@@ -12,20 +12,22 @@
 class	GradeTooHighException : public std::exception
 {
 public:
-	virtual  const char *what() const noexcept
+	virtual  const char *what() const throw()
 	{
 		return ("Error Grade Too High");
 	}
+	//~GradeTooHighException()  _NOEXCEPT;
 };
 
 
 class	GradeTooLowException : public std::exception
 {
 public:
-	 virtual const char *what() const noexcept
+	 virtual const char *what() const throw()
 	{
 		return ("Error Grade Too Low");
 	}
+	//~GradeTooLowException() _NOEXCEPT;
 };
 
 class Bureaucrat : public GradeTooHighException, public GradeTooLowException
@@ -38,7 +40,7 @@ class Bureaucrat : public GradeTooHighException, public GradeTooLowException
 		Bureaucrat( std::string name, int grade);
 		Bureaucrat( const Bureaucrat& bureaucrat );
 		void	operator=( const Bureaucrat& bureaucrat );
-		~Bureaucrat();
+		  ~Bureaucrat()  _NOEXCEPT;
 		void	incrementGrade();
 		void 	decrementGrade();
 		std::string  getName() const;

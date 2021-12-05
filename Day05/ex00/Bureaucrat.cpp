@@ -27,6 +27,14 @@ void	Bureaucrat::incrementGrade() {
 	}
 }
 
+std::string	Bureaucrat::getName() const {
+	return this->_name;
+}
+
+int	Bureaucrat::getGrade() const {
+	return this->_grade;
+}
+
 std::ostream& operator <<(std::ostream& out, const Bureaucrat& bureaucrat)
 {
 	out << bureaucrat.getName() << ", bureaucrate grade " << bureaucrat.getGrade() << std::endl;
@@ -47,6 +55,6 @@ void	Bureaucrat::decrementGrade() {
 
 }
 
-Bureaucrat::~Bureaucrat() {
+Bureaucrat::~Bureaucrat() throw (){
 	std::cout << "Default destructor\n";
 }
