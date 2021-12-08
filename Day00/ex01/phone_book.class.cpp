@@ -13,49 +13,49 @@
 
 #include "phone_book.hpp"
 
-phone_book::phone_book(void)
+Phone_book::Phone_book(void)
 {}
 
-phone_book::~phone_book(void )
+Phone_book::~Phone_book(void )
 {}
 
-contact::contact(void)
+Contact::Contact(void)
 {}
 
-contact::~contact(void)
+Contact::~Contact(void)
 {}
 
-bool	phone_book::check_valid(std::string str)
+bool	Phone_book::check_valid(std::string str)
 {
 	if ((str.compare("ADD") != 0) && (str.compare("EXIT") != 0) && (str.compare("SEARCH") != 0))
 		return (false);
 	return (true);
 }
 
-contact		contact::add_command(class contact contact)
+Contact		Contact::add_command(class Contact contact, int *i, int *contacts)
 {
 	std::cout << "first name : ";
-	std::getline (std::cin, contact.first_name[contact.i]); 
+	std::getline (std::cin, contact.first_name[*i]);
 
 	std::cout << "last name : ";
-	std::getline (std::cin, contact.last_name[contact.i]);
+	std::getline (std::cin, contact.last_name[*i]);
 
 	std::cout << "nickname : ";
-	std::getline(std::cin, contact.nickname[contact.i]);
+	std::getline(std::cin, contact.nickname[*i]);
 
 	std::cout << "phone_number : ";
-	std::getline(std::cin, contact.phone_number[contact.i]);
+	std::getline(std::cin, contact.phone_number[*i]);
 
 	std::cout << "darkest_secret : ";
-	std::getline(std::cin, contact.darkest_secret[contact.i]);
-	if (contact.i < 8)
-		contact.i += 1;
-	if (contact.contacts < 8)
-		contact.contacts += 1;
+	std::getline(std::cin, contact.darkest_secret[*i]);
+	if (*i < 8)
+		*i += 1;
+	if (*contacts < 8)
+		*contacts += 1;
 	return (contact);
 }
 
-void	phone_book::search(class contact contact)
+void	Contact::search(class Contact contact)
 {
 	int j;
 
@@ -102,7 +102,7 @@ void	phone_book::search(class contact contact)
 	}
 }
 
-void	desired_index(class contact contact, int i)
+void	desired_index(class Contact contact, int i)
 {
 	std::cout << "first name : ";
 	std::cout << contact.first_name[i] << std::endl; 
@@ -130,7 +130,7 @@ bool	check_number(std::string index)
 	return (true);
 }
 
-void	phone_book::valid_index(class contact contact, std::string index)
+void	Phone_book::valid_index(class Contact contact, std::string index, int *contacts)
 {
 	int num;
 
@@ -141,7 +141,7 @@ void	phone_book::valid_index(class contact contact, std::string index)
 		return ;
 	}
 	num = std::stoi(index);
-	if (num > contact.contacts && num != -1)
+	if (num > *contacts && num != -1)
 	{
 		std::cout << "index is out of range\n";
 		return ;

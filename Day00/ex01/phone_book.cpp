@@ -14,32 +14,40 @@
 #include "phone_book.hpp"
 
 
-int 	main()
+int 	main(int ac, char **av)
 {
-	phone_book pb;
+	Phone_book pb;
 	std::string index;
-	contact contact;
+	Contact contact;
 	std::string str;
+	int *i;
+	int *contacts;
 
-	contact.i = 0;
-	contact.contacts = 0;
+	*i = 0;
+	*contacts = 0;
+	if (ac >= 2)
+	{
+		std::cout << "Usage: ./phone_book" << std::endl;
+		av = NULL;
+		return (0);
+	}
 	while (1)
 	{
 		std::getline (std::cin, str);
-		if(pb.check_valid(str) == false)
+		if(!pb.check_valid(str))
 			std::cout << "Wrong input" << std::endl;
 		else if (str.compare("ADD") == 0)
 		{
-			if (contact.i == 8)
-				contact.i = 0;
-			contact = contact.add_command(contact);
+			if (*i == 8)
+				*i = 0;
+			contact = contact.add_command(contact, i, contacts);
 		}
 		else if (str.compare("SEARCH") == 0)
 		{
-			pb.search(contact);	
-			std::cout << "Wich index do you want ? : ";
+			contact.search(contact);
+			std::cout << "Which index do you want ? : ";
 			std::getline (std::cin, index);
-			pb.valid_index(contact, index);
+			pb.valid_index(contact, index, contacts);
 		}
 		else if (str.compare("EXIT") == 0)
 			return (0);
