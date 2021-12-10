@@ -18,11 +18,12 @@ int main(void)
     Zombie  *casa;
     int num;
 
-    num = 20;
-    casa = zombieHorde(num, "Mouaad");
+    num = 5;
+    casa = zombieHorde(num, "1337");
     for (int i = 0; i < num; i++)
     {
         casa->announce();
     }
     delete [] casa;
+	return 0;
 }

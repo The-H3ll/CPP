@@ -896,31 +896,304 @@ CMakeFiles/c__.dir/Day04/ex03/MateriaSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day04/ex03/MateriaSource.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day04/ex03/MateriaSource.cpp -o CMakeFiles/c__.dir/Day04/ex03/MateriaSource.cpp.s
 
-CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.o: CMakeFiles/c__.dir/flags.make
-CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.o: ../Day05/Bureaucrat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.o -c /Users/molabhai/Desktop/c++/Day05/Bureaucrat.cpp
+CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.o: ../Day05/ex00/Bureaucrat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex00/Bureaucrat.cpp
 
-CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/Bureaucrat.cpp > CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.i
+CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex00/Bureaucrat.cpp > CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.i
 
-CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/Bureaucrat.cpp -o CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.s
+CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex00/Bureaucrat.cpp -o CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.s
 
-CMakeFiles/c__.dir/Day05/main.cpp.o: CMakeFiles/c__.dir/flags.make
-CMakeFiles/c__.dir/Day05/main.cpp.o: ../Day05/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/c__.dir/Day05/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/main.cpp.o -c /Users/molabhai/Desktop/c++/Day05/main.cpp
+CMakeFiles/c__.dir/Day05/ex00/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex00/main.cpp.o: ../Day05/ex00/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/c__.dir/Day05/ex00/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex00/main.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex00/main.cpp
 
-CMakeFiles/c__.dir/Day05/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/main.cpp > CMakeFiles/c__.dir/Day05/main.cpp.i
+CMakeFiles/c__.dir/Day05/ex00/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex00/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex00/main.cpp > CMakeFiles/c__.dir/Day05/ex00/main.cpp.i
 
-CMakeFiles/c__.dir/Day05/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/main.cpp -o CMakeFiles/c__.dir/Day05/main.cpp.s
+CMakeFiles/c__.dir/Day05/ex00/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex00/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex00/main.cpp -o CMakeFiles/c__.dir/Day05/ex00/main.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex01/Form.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex01/Form.cpp.o: ../Day05/ex01/Form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/c__.dir/Day05/ex01/Form.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex01/Form.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex01/Form.cpp
+
+CMakeFiles/c__.dir/Day05/ex01/Form.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex01/Form.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex01/Form.cpp > CMakeFiles/c__.dir/Day05/ex01/Form.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex01/Form.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex01/Form.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex01/Form.cpp -o CMakeFiles/c__.dir/Day05/ex01/Form.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.o: ../Day05/ex01/Bureaucrat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex01/Bureaucrat.cpp
+
+CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex01/Bureaucrat.cpp > CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex01/Bureaucrat.cpp -o CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex01/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex01/main.cpp.o: ../Day05/ex01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/c__.dir/Day05/ex01/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex01/main.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex01/main.cpp
+
+CMakeFiles/c__.dir/Day05/ex01/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex01/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex01/main.cpp > CMakeFiles/c__.dir/Day05/ex01/main.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex01/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex01/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex01/main.cpp -o CMakeFiles/c__.dir/Day05/ex01/main.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.o: ../Day05/ex02/ShrubberyCreation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/ShrubberyCreation.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/ShrubberyCreation.cpp > CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/ShrubberyCreation.cpp -o CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.o: ../Day05/ex02/RobotmyRequestForm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/RobotmyRequestForm.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/RobotmyRequestForm.cpp > CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/RobotmyRequestForm.cpp -o CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.o: ../Day05/ex02/PresidentialPardonForm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/PresidentialPardonForm.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/PresidentialPardonForm.cpp > CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/PresidentialPardonForm.cpp -o CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/Form.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/Form.cpp.o: ../Day05/ex02/Form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/Form.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/Form.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/Form.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/Form.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/Form.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/Form.cpp > CMakeFiles/c__.dir/Day05/ex02/Form.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/Form.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/Form.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/Form.cpp -o CMakeFiles/c__.dir/Day05/ex02/Form.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.o: ../Day05/ex02/Bureaucrat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/Bureaucrat.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/Bureaucrat.cpp > CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/Bureaucrat.cpp -o CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/main.cpp.o: ../Day05/ex02/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/main.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/main.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/main.cpp > CMakeFiles/c__.dir/Day05/ex02/main.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/main.cpp -o CMakeFiles/c__.dir/Day05/ex02/main.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.o: ../Day05/ex02/Intern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex02/Intern.cpp
+
+CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex02/Intern.cpp > CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex02/Intern.cpp -o CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex03/Form.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex03/Form.cpp.o: ../Day05/ex03/Form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/c__.dir/Day05/ex03/Form.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex03/Form.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex03/Form.cpp
+
+CMakeFiles/c__.dir/Day05/ex03/Form.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex03/Form.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex03/Form.cpp > CMakeFiles/c__.dir/Day05/ex03/Form.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex03/Form.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex03/Form.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex03/Form.cpp -o CMakeFiles/c__.dir/Day05/ex03/Form.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.o: ../Day05/ex03/Bureaucrat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex03/Bureaucrat.cpp
+
+CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex03/Bureaucrat.cpp > CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex03/Bureaucrat.cpp -o CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex03/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex03/main.cpp.o: ../Day05/ex03/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/c__.dir/Day05/ex03/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex03/main.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex03/main.cpp
+
+CMakeFiles/c__.dir/Day05/ex03/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex03/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex03/main.cpp > CMakeFiles/c__.dir/Day05/ex03/main.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex03/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex03/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex03/main.cpp -o CMakeFiles/c__.dir/Day05/ex03/main.cpp.s
+
+CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.o: ../Day05/ex03/Intern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.o -c /Users/molabhai/Desktop/c++/Day05/ex03/Intern.cpp
+
+CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day05/ex03/Intern.cpp > CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.i
+
+CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day05/ex03/Intern.cpp -o CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.s
+
+CMakeFiles/c__.dir/Day06/ex00/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day06/ex00/main.cpp.o: ../Day06/ex00/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/c__.dir/Day06/ex00/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day06/ex00/main.cpp.o -c /Users/molabhai/Desktop/c++/Day06/ex00/main.cpp
+
+CMakeFiles/c__.dir/Day06/ex00/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day06/ex00/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day06/ex00/main.cpp > CMakeFiles/c__.dir/Day06/ex00/main.cpp.i
+
+CMakeFiles/c__.dir/Day06/ex00/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day06/ex00/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day06/ex00/main.cpp -o CMakeFiles/c__.dir/Day06/ex00/main.cpp.s
+
+CMakeFiles/c__.dir/Day06/ex00/Check.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day06/ex00/Check.cpp.o: ../Day06/ex00/Check.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/c__.dir/Day06/ex00/Check.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day06/ex00/Check.cpp.o -c /Users/molabhai/Desktop/c++/Day06/ex00/Check.cpp
+
+CMakeFiles/c__.dir/Day06/ex00/Check.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day06/ex00/Check.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day06/ex00/Check.cpp > CMakeFiles/c__.dir/Day06/ex00/Check.cpp.i
+
+CMakeFiles/c__.dir/Day06/ex00/Check.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day06/ex00/Check.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day06/ex00/Check.cpp -o CMakeFiles/c__.dir/Day06/ex00/Check.cpp.s
+
+CMakeFiles/c__.dir/Day06/ex01/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day06/ex01/main.cpp.o: ../Day06/ex01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/c__.dir/Day06/ex01/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day06/ex01/main.cpp.o -c /Users/molabhai/Desktop/c++/Day06/ex01/main.cpp
+
+CMakeFiles/c__.dir/Day06/ex01/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day06/ex01/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day06/ex01/main.cpp > CMakeFiles/c__.dir/Day06/ex01/main.cpp.i
+
+CMakeFiles/c__.dir/Day06/ex01/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day06/ex01/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day06/ex01/main.cpp -o CMakeFiles/c__.dir/Day06/ex01/main.cpp.s
+
+CMakeFiles/c__.dir/Day06/ex02/Base.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day06/ex02/Base.cpp.o: ../Day06/ex02/Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/c__.dir/Day06/ex02/Base.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day06/ex02/Base.cpp.o -c /Users/molabhai/Desktop/c++/Day06/ex02/Base.cpp
+
+CMakeFiles/c__.dir/Day06/ex02/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day06/ex02/Base.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day06/ex02/Base.cpp > CMakeFiles/c__.dir/Day06/ex02/Base.cpp.i
+
+CMakeFiles/c__.dir/Day06/ex02/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day06/ex02/Base.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day06/ex02/Base.cpp -o CMakeFiles/c__.dir/Day06/ex02/Base.cpp.s
+
+CMakeFiles/c__.dir/Day06/ex02/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day06/ex02/main.cpp.o: ../Day06/ex02/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/c__.dir/Day06/ex02/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day06/ex02/main.cpp.o -c /Users/molabhai/Desktop/c++/Day06/ex02/main.cpp
+
+CMakeFiles/c__.dir/Day06/ex02/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day06/ex02/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day06/ex02/main.cpp > CMakeFiles/c__.dir/Day06/ex02/main.cpp.i
+
+CMakeFiles/c__.dir/Day06/ex02/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day06/ex02/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day06/ex02/main.cpp -o CMakeFiles/c__.dir/Day06/ex02/main.cpp.s
+
+CMakeFiles/c__.dir/Day07/ex00/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day07/ex00/main.cpp.o: ../Day07/ex00/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/c__.dir/Day07/ex00/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day07/ex00/main.cpp.o -c /Users/molabhai/Desktop/c++/Day07/ex00/main.cpp
+
+CMakeFiles/c__.dir/Day07/ex00/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day07/ex00/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day07/ex00/main.cpp > CMakeFiles/c__.dir/Day07/ex00/main.cpp.i
+
+CMakeFiles/c__.dir/Day07/ex00/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day07/ex00/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day07/ex00/main.cpp -o CMakeFiles/c__.dir/Day07/ex00/main.cpp.s
+
+CMakeFiles/c__.dir/Day07/ex01/main.cpp.o: CMakeFiles/c__.dir/flags.make
+CMakeFiles/c__.dir/Day07/ex01/main.cpp.o: ../Day07/ex01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/c__.dir/Day07/ex01/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c__.dir/Day07/ex01/main.cpp.o -c /Users/molabhai/Desktop/c++/Day07/ex01/main.cpp
+
+CMakeFiles/c__.dir/Day07/ex01/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c__.dir/Day07/ex01/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/molabhai/Desktop/c++/Day07/ex01/main.cpp > CMakeFiles/c__.dir/Day07/ex01/main.cpp.i
+
+CMakeFiles/c__.dir/Day07/ex01/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c__.dir/Day07/ex01/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/molabhai/Desktop/c++/Day07/ex01/main.cpp -o CMakeFiles/c__.dir/Day07/ex01/main.cpp.s
 
 # Object files for target c__
 c___OBJECTS = \
@@ -987,8 +1260,29 @@ c___OBJECTS = \
 "CMakeFiles/c__.dir/Day04/ex03/Cure.cpp.o" \
 "CMakeFiles/c__.dir/Day04/ex03/Character.cpp.o" \
 "CMakeFiles/c__.dir/Day04/ex03/MateriaSource.cpp.o" \
-"CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.o" \
-"CMakeFiles/c__.dir/Day05/main.cpp.o"
+"CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex00/main.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex01/Form.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex01/main.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/Form.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/main.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex03/Form.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex03/main.cpp.o" \
+"CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.o" \
+"CMakeFiles/c__.dir/Day06/ex00/main.cpp.o" \
+"CMakeFiles/c__.dir/Day06/ex00/Check.cpp.o" \
+"CMakeFiles/c__.dir/Day06/ex01/main.cpp.o" \
+"CMakeFiles/c__.dir/Day06/ex02/Base.cpp.o" \
+"CMakeFiles/c__.dir/Day06/ex02/main.cpp.o" \
+"CMakeFiles/c__.dir/Day07/ex00/main.cpp.o" \
+"CMakeFiles/c__.dir/Day07/ex01/main.cpp.o"
 
 # External object files for target c__
 c___EXTERNAL_OBJECTS =
@@ -1056,11 +1350,32 @@ c__: CMakeFiles/c__.dir/Day04/ex03/Ice.cpp.o
 c__: CMakeFiles/c__.dir/Day04/ex03/Cure.cpp.o
 c__: CMakeFiles/c__.dir/Day04/ex03/Character.cpp.o
 c__: CMakeFiles/c__.dir/Day04/ex03/MateriaSource.cpp.o
-c__: CMakeFiles/c__.dir/Day05/Bureaucrat.cpp.o
-c__: CMakeFiles/c__.dir/Day05/main.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex00/Bureaucrat.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex00/main.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex01/Form.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex01/Bureaucrat.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex01/main.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/ShrubberyCreation.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/RobotmyRequestForm.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/PresidentialPardonForm.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/Form.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/Bureaucrat.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/main.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex02/Intern.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex03/Form.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex03/Bureaucrat.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex03/main.cpp.o
+c__: CMakeFiles/c__.dir/Day05/ex03/Intern.cpp.o
+c__: CMakeFiles/c__.dir/Day06/ex00/main.cpp.o
+c__: CMakeFiles/c__.dir/Day06/ex00/Check.cpp.o
+c__: CMakeFiles/c__.dir/Day06/ex01/main.cpp.o
+c__: CMakeFiles/c__.dir/Day06/ex02/Base.cpp.o
+c__: CMakeFiles/c__.dir/Day06/ex02/main.cpp.o
+c__: CMakeFiles/c__.dir/Day07/ex00/main.cpp.o
+c__: CMakeFiles/c__.dir/Day07/ex01/main.cpp.o
 c__: CMakeFiles/c__.dir/build.make
 c__: CMakeFiles/c__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX executable c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/molabhai/Desktop/c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable c__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -15,12 +15,10 @@
 
 int     main(void)
 {
-    Zombie zombie("labhairi");
-    Zombie *next = newZombie("Mouaad");
+    Zombie *next = newZombie("World");
 
-  //  next = 
-    zombie.announce();
     next->announce();
-    delete next;
+	randomChump("Casanegra");
+	delete next;
     return (0);
 }

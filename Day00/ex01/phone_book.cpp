@@ -20,8 +20,8 @@ int 	main(int ac, char **av)
 	std::string index;
 	Contact contact;
 	std::string str;
-	int *i;
-	int *contacts;
+	int *i = new int [1];
+	int *contacts = new int [1];
 
 	*i = 0;
 	*contacts = 0;
@@ -44,7 +44,7 @@ int 	main(int ac, char **av)
 		}
 		else if (str.compare("SEARCH") == 0)
 		{
-			contact.search(contact);
+			contact.search(contact, *contacts);
 			std::cout << "Which index do you want ? : ";
 			std::getline (std::cin, index);
 			pb.valid_index(contact, index, contacts);

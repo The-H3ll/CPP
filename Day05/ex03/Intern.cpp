@@ -7,13 +7,17 @@
 
 Intern::Intern()
 {
+	o = 1;
 	std::cout << "Intern Default Constructor\n";
 }
 
-Intern::Intern( Intern const &intern) {}
+Intern::Intern( Intern const &intern) {
+
+	this->o = intern.o;
+}
 
 void 	Intern::operator=(const Intern &intern) {
-
+	this->o = intern.o;
 }
 
 Form	*Intern::makeForm(std::string form, std::string target) {

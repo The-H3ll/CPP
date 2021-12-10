@@ -5,7 +5,7 @@
 #include "Form.hpp"
 
 
-Form::Form()  {
+Form::Form() : _grade( 1 ) {
 	std::cout << "Default constructor\n";
 	this->_signed = false;
 }
@@ -14,28 +14,33 @@ Form::Form(std::string name, int grade): _name(name), _grade(grade) {
 	this->_signed = false;
 }
 
-Form::Form(const Form &form) {
+Form::Form(const Form &form): _grade(form._grade){
 	this->_signed = form._signed;
 }
 
-Form	Form::operator=(const Form &form){
+void 	Form::operator=(const Form &form){
 	 this->_signed = form._signed;
-	return (*(this));
 }
 
 int		Form::getGrade() const {
 	return (this->_grade);
 }
-int		Form::getSigned() const {
+bool 		Form::getSigned() const {
 	return (this->_signed);
+}
+void	Form::setSigned(bool sign)
+{
+	this->_signed = sign;
 }
 
 std::string	Form::getName() const{
 	return (this->_name);
 }
 
+
 bool	Form::beSigned(Bureaucrat &bureaucrat)
 {
+	std::cout << "Grade ==> " << this->_grade << std::endl;
 	try {
 		if (bureaucrat.getGrade() <= this->_grade)
 		{
@@ -70,9 +75,9 @@ void	Form::signForm(Bureaucrat &bureaucrat)
 
 std::ostream& operator << (std::ostream& out, const Form& form)
 {
-	if (form.getSigned() == true)
+	if (form.getSigned())
 		out << form.getName() << " is signed\n";
-	else if (form.getSigned() == false)
+	else if (!form.getSigned())
 		out << form.getName() << " is not signed\n";
 	return out;
 }

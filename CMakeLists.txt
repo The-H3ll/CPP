@@ -99,4 +99,14 @@ add_executable(c__
         Day04/ex01/Dog.cpp
         Day04/ex01/Dog.hpp
         Day04/ex01/main.cpp Day04/ex01/WrongAnimal.cpp Day04/ex01/WrongCat.cpp Day04/ex01/WrongCat.hpp
-        Day04/ex01/Brain.cpp Day04/ex01/Brain.hpp Day04/ex03/main.cpp Day04/ex03/AMateria.hpp Day04/ex03/AMateria.cpp Day04/ex03/ICharacter.cpp Day04/ex03/ICharacter.hpp Day04/ex03/IMateriaSource.cpp Day04/ex03/IMateriaSource.hpp Day04/ex03/Ice.cpp Day04/ex03/Ice.hpp Day04/ex03/Cure.cpp Day04/ex03/Cure.hpp Day04/ex03/Character.cpp Day04/ex03/Character.hpp Day04/ex03/MateriaSource.cpp Day04/ex03/MateriaSource.hpp Day05/Bureaucrat.cpp Day05/Bureaucrat.hpp Day05/main.cpp)
+        Day04/ex01/Brain.cpp Day04/ex01/Brain.hpp Day04/ex03/main.cpp Day04/ex03/AMateria.hpp Day04/ex03/AMateria.cpp Day04/ex03/ICharacter.cpp Day04/ex03/ICharacter.hpp Day04/ex03/IMateriaSource.cpp Day04/ex03/IMateriaSource.hpp Day04/ex03/Ice.cpp Day04/ex03/Ice.hpp Day04/ex03/Cure.cpp Day04/ex03/Cure.hpp Day04/ex03/Character.cpp Day04/ex03/Character.hpp Day04/ex03/MateriaSource.cpp Day04/ex03/MateriaSource.hpp
+        Day05/ex00/Bureaucrat.cpp Day05/ex00/Bureaucrat.hpp Day05/ex00/main.cpp
+        Day05/ex01/Form.cpp Day05/ex01/Form.hpp
+        Day05/ex01/Bureaucrat.cpp Day05/ex01/Bureaucrat.hpp Day05/ex01/main.cpp
+        Day05/ex02/ShrubberyCreation.cpp Day05/ex02/ShrubberyCreation.hpp Day05/ex02/RobotmyRequestForm.cpp Day05/ex02/RobotmyRequestForm.hpp Day05/ex02/PresidentialPardonForm.cpp Day05/ex02/PresidentialPardonForm.hpp
+        Day05/ex02/Form.cpp Day05/ex02/Form.hpp
+        Day05/ex02/Bureaucrat.cpp Day05/ex02/Bureaucrat.hpp Day05/ex02/main.cpp Day05/ex02/Intern.cpp Day05/ex02/Intern.hpp
+        Day05/ex02/ShrubberyCreation.cpp Day05/ex02/ShrubberyCreation.hpp Day05/ex02/RobotmyRequestForm.cpp Day05/ex02/RobotmyRequestForm.hpp Day05/ex02/PresidentialPardonForm.cpp Day05/ex02/PresidentialPardonForm.hpp
+        Day05/ex03/Form.cpp Day05/ex03/Form.hpp
+        Day05/ex03/Bureaucrat.cpp Day05/ex03/Bureaucrat.hpp Day05/ex03/main.cpp Day05/ex03/Intern.cpp Day05/ex03/Intern.hpp
+        Day06/ex00/main.cpp Day06/ex00/Check.cpp Day06/ex00/Check.hpp Day06/ex01/main.cpp Day06/ex02/Base.cpp Day06/ex02/Base.hpp Day06/ex02/main.cpp Day07/ex00/main.cpp Day07/ex00/Temp.hpp Day07/ex01/main.cpp Day07/ex01/iter.hpp)

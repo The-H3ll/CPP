@@ -10,7 +10,10 @@
 #include "RobotmyRequestForm.hpp"
 #include "Form.hpp"
 
+
 class Intern: public PresidentialPardonForm, public ShrubberyCreation, public RobotmyRequestForm{
+private:
+	int o;
 	public:
 		Intern();
 		Intern( const Intern &intern);

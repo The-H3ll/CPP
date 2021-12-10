@@ -17,8 +17,9 @@ int	main()
 {
 	Karen karen;
 
-	void	(Karen::*ptrFunc)(std::string) = &Karen::complain;
-
-	(karen.*ptrFunc)("ERROR");
+	karen.complain("ERROR");
+	karen.complain("DEBUG");
+	karen.complain("INFO");
+	karen.complain("WARNING");
 	return (0);
 }

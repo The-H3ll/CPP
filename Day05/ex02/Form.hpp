@@ -8,22 +8,37 @@
 #include <iostream>
 #include "Bureaucrat.hpp"
 
-class Form: public GradeTooLowException, public GradeTooHighException {
+
+
+class	NeedToBeSigned : public std::exception
+{
+public:
+	virtual  const char *what() const throw()
+	{
+		return ("Error The form need to be signed");
+	}
+	//~GradeTooHighException()  _NOEXCEPT;
+};
+
+
+class Form: public GradeTooLowException, public GradeTooHighException, public NeedToBeSigned{
 	private:
 		const std::string   _name;
-		int	 _grade;
+		const int _grade;
 		bool _signed;
 	public:
 		Form();
 		Form(std::string name, int grade);
 		Form( const Form &form);
-		Form operator=(const Form &form);
+		void operator=(const Form &form);
 		~Form() _NOEXCEPT;
 		std::string getName() const ;
 		int			getGrade() const ;
-		int 		getSigned() const;
-		bool		beSigned(Bureaucrat &bureaucrat);
+		bool 		getSigned() const;
+		virtual bool		beSigned(Bureaucrat &bureaucrat);
 		void 		signForm(Bureaucrat &bureaucrat);
+		virtual void 		execute(Bureaucrat const & executor) const = 0;
+		void 		setSigned(bool sign);
 
 };
 

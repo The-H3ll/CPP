@@ -4,7 +4,7 @@ NAME = grades
 
 CC = clang++
 
-SRCS = main.cpp Bureaucrat.cpp
+SRCS = main.cpp Bureaucrat.cpp Form.cpp
 
 FLAGS = -Wall -Wextra -Werror
 

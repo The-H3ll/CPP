@@ -23,10 +23,14 @@ int		main(void)
 
 	Intern someRandomIntern;
 	Form* rrf;
-	rrf = someRandomIntern.makeForm("robotomy request", "Bender");
+	rrf = someRandomIntern.makeForm("robotdddmy request", "Bender");
 
-	rrf->beSigned(bu);
-	rrf->execute(bu);
+	if (rrf != NULL) {
+		rrf->beSigned(bu);
+		rrf->execute(bu);
+	}
+	else
+		std::cout << "is wrong\n";
 	//Shrub
 //	shrub.beSigned(bureaucrat);
 //	shrub.execute(bu);

@@ -55,13 +55,13 @@ Contact		Contact::add_command(class Contact contact, int *i, int *contacts)
 	return (contact);
 }
 
-void	Contact::search(class Contact contact)
+void	Contact::search(class Contact contact, int cont)
 {
 	int j;
 
 	j = 0;
-	std::cout << "index    | first name| last name | nickname  | " << std::endl;
-	while (j < contact.contacts)
+	std::cout << "index" << std::setfill(' ') << std::setw(5) << "|" << " first name| last name | nickname  | " << std::endl;
+	while (j < cont)
 	{
 		std::cout << j << "        | ";
 		if (contact.first_name[j].length() > 10)
@@ -102,7 +102,7 @@ void	Contact::search(class Contact contact)
 	}
 }
 
-void	desired_index(class Contact contact, int i)
+void	Contact::desired_index(class Contact contact, int i)
 {
 	std::cout << "first name : ";
 	std::cout << contact.first_name[i] << std::endl; 
@@ -120,8 +120,10 @@ void	desired_index(class Contact contact, int i)
 	std::cout << contact.darkest_secret[i] << std::endl;
 }
 
-bool	check_number(std::string index)
+bool	Contact::check_number(std::string index)
 {
+	if (!std::isprint(index[0]))
+		return (false);
 	for (unsigned long i = 0; i < index.length(); i++)
 	{
 		if (std::isdigit(index[i]) == 0)
@@ -135,7 +137,7 @@ void	Phone_book::valid_index(class Contact contact, std::string index, int *cont
 	int num;
 
 	num = -1;
-	if (check_number(index) == false)
+	if (!contact.check_number(index))
 	{
 		std::cout << "Please Insert a valid index 0-7\n";
 		return ;
@@ -148,7 +150,7 @@ void	Phone_book::valid_index(class Contact contact, std::string index, int *cont
 	}
 	else if (num != -1)
 	{
-		desired_index(contact, num);	
+		contact.desired_index(contact, num);
 		return ;
 	}
 }

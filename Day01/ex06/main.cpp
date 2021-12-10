@@ -18,11 +18,11 @@ int	main(int ac, char **av)
     int level = -1;
     Karen karen;
 
-    if (ac >= 3)
+    if (ac != 2)
     {
         std::cout << "Usage: ./karen \"Arg\"" << std::endl;
+		return 0;
     }
-	void	(Karen::*ptrFunc)(std::string) = &Karen::complain;
     for (int i = 0; i < 4; i++)
     {
         if (av[1] == levels[i])
@@ -31,13 +31,13 @@ int	main(int ac, char **av)
     switch (level)
     {
         case 1:
-	        (karen.*ptrFunc)("DEBUG");
+	        karen.complain("DEBUG");
         case 2:
-	        (karen.*ptrFunc)("INFO");
+	        karen.complain("INFO");
         case 3:
-	        (karen.*ptrFunc)("WARNING");
+	        karen.complain("WARNING");
         case 4:
-	        (karen.*ptrFunc)("ERROR");
+	        karen.complain("ERROR");
             break ;
         default:
             std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;

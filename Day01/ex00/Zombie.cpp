@@ -23,5 +23,5 @@ void		Zombie::announce( void )
 
 Zombie::~Zombie( void )
 {
-
+	std::cout << "Destruction of "  << this->_zombie_name << std::endl;
 }
