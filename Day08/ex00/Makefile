@@ -1,4 +1,5 @@
-NAME = iter
+
+NAME = easy
 
 CC = clang++
 

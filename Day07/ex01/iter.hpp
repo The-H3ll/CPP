@@ -9,11 +9,11 @@
 #include <string>
 
 template	<typename T>
-void	iter(const T &arrays[], int length, void (T array[]))
+void	iter(T *arr, int length, void (*f)(T const &array))
 {
 	for (int i = 0; i < length; i++)
 	{
-
+		f(arr[i]);
 	}
 }
 
